@@ -12,7 +12,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   <head>
 
     <title>iron-image demo</title>
-    
+
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -51,7 +51,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       <h3>A plain <code>iron-image</code>.</h3>
       <demo-snippet class="centered-demo">
         <template>
-          <iron-image alt="The Polymer logo." src="./polymer.svg"></iron-image>
+          <iron-image circle alt="The Polymer logo." src="./polymer.svg"></iron-image>
         </template>
       </demo-snippet>
 
@@ -71,7 +71,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             </style>
           <custom-style>
 
-          <iron-image sizing="cover" id="example-sizing-cover" alt="The Polymer logo." src="./polymer.svg"></iron-image>
+          <iron-image circle sizing="cover" id="example-sizing-cover" alt="The Polymer logo." src="./polymer.svg"></iron-image>
         </template>
       </demo-snippet>
 
@@ -91,7 +91,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             </style>
           </custom-style>
 
-          <iron-image sizing="contain" id="example-sizing-contain" alt="The Polymer logo." src="./polymer.svg"></iron-image>
+          <iron-image circle sizing="contain" id="example-sizing-contain" alt="The Polymer logo." src="./polymer.svg"></iron-image>
         </template>
       </demo-snippet>
 
@@ -126,8 +126,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           </custom-style>
 
           <div id="example-full-width-container">
-            <iron-image id="example-full-width" alt="The Polymer logo." src="./polymer.svg"></iron-image>
-            <iron-image id="example-half-width" alt="The Polymer logo." src="./polymer.svg"></iron-image>
+            <iron-image circle id="example-full-width" alt="The Polymer logo." src="./polymer.svg"></iron-image>
+            <iron-image circle id="example-half-width" alt="The Polymer logo." src="./polymer.svg"></iron-image>
           </div>
         </template>
       </demo-snippet>
@@ -163,8 +163,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           </custom-style>
 
           <div id="example-full-height-container">
-            <iron-image id="example-full-height" alt="The Polymer logo." src="./polymer.svg"></iron-image>
-            <iron-image id="example-half-height" alt="The Polymer logo." src="./polymer.svg"></iron-image>
+            <iron-image circle id="example-full-height" alt="The Polymer logo." src="./polymer.svg"></iron-image>
+            <iron-image circle id="example-half-height" alt="The Polymer logo." src="./polymer.svg"></iron-image>
           </div>
         </template>
       </demo-snippet>
@@ -189,7 +189,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
               Load image
             </button>
             <br>
-            <iron-image sizing="contain" alt="The Polymer logo." id="example-without-preload-1"></iron-image>
+            <iron-image circle sizing="contain" alt="The Polymer logo." id="example-without-preload-1"></iron-image>
           </div>
         </template>
       </demo-snippet>
@@ -219,7 +219,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
               Load image
             </button>
             <br>
-            <iron-image preload id="example-preload-1" alt="The Polymer logo." class="sized" sizing="contain"></iron-image>
+            <iron-image circle preload id="example-preload-1" alt="The Polymer logo." class="sized" sizing="contain"></iron-image>
             <br>
             Without the <code>fade</code> attribute, the placeholder element is
             hidden with no transition when the image loads.
@@ -229,7 +229,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
               Load image
             </button>
             <br>
-            <iron-image preload fade id="example-preload-2" alt="The Polymer logo." class="sized" sizing="contain"></iron-image>
+            <iron-image circle preload fade id="example-preload-2" alt="The Polymer logo." class="sized" sizing="contain"></iron-image>
             <br>
             With the <code>fade</code> attribute, the placeholder element is
             fades away when the image loads.
@@ -258,7 +258,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
               Load image
             </button>
             <br>
-            <iron-image preload placeholder="./loading.png" id="example-preload-image-1" alt="The Polymer logo." class="sized" sizing="contain"></iron-image>
+            <iron-image circle preload placeholder="./loading.png" id="example-preload-image-1" alt="The Polymer logo." class="sized" sizing="contain"></iron-image>
             <br>
             (without <code>fade</code> attribute)
           </div>
@@ -267,7 +267,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
               Load image
             </button>
             <br>
-            <iron-image preload placeholder="./loading.png" fade id="example-preload-image-2" alt="The Polymer logo." class="sized" sizing="contain"></iron-image>
+            <iron-image circle preload placeholder="./loading.png" fade id="example-preload-image-2" alt="The Polymer logo." class="sized" sizing="contain"></iron-image>
             <br>
             (with <code>fade</code> attribute)
           </div>
